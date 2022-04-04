@@ -2,29 +2,34 @@ header
     width: 100%
     background: $header
     .logo
-        font-size: 1.8rem
+        font-size: 2.8rem
         font-weight: 600
         margin: 2rem 0
         a
             text-decoration: none
             color: $morado_primario
     .custom-toggler .navbar-toggler-icon
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(103, 8, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+        font-size: 1.4rem
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
     .custom-toggler.navbar-toggler
         border-color: $morado_secundario
         :active
             border: none
     .navegacion
-        list-style: none
-        margin-bottom: 2rem
-        margin-left: auto
+        background: $header
+        li
+            list-style: none
+            margin-bottom: 2rem
+            margin-left: auto
         a
             text-decoration: none
+            // border-bottom: 3px solid #ffffff7a
             color: #fff
-            font-size: 1.2rem
-            margin-right: 2.5rem
+            font-size: 1.4rem
+            margin-right: 1rem
         :hover
             color: $morado_primario
+            border-bottom: 3px solid $morado_primario
         .activo
             border-bottom: 3px solid $morado_primario
             color: $morado_primario
@@ -33,22 +38,30 @@ header
         margin-top: 6rem
         text-align: center
         color: #fff
+        h1
+            font-size: 2.8rem
         .auto-texto
             color: $morado_primario
+        p
+            font-size: 1.4rem
+            margin-top: 2rem
+    .botones
+        text-align: center
         button
-            width: 80px
+            width: 120px
+            font-size: 1.4rem
             border: none
+            background: $morado_primario
             margin-top: 2rem
             padding: 5px
             border-radius: 5px
         .btn-about-me
             color: #fff
-            background: $morado_primario
             margin-right: 2rem
         .btn-projects
             color: #fff
             background: none
-            border: 1px solid $morado_primario
+            border: 2px solid $morado_primario
         i
             margin-left: 5px
     .foto-perfil

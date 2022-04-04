@@ -4,14 +4,16 @@ main
     h3
         color: $morado_primario
         font-weight: 600
-        font-size: 2.5rem
+        font-size: 2.8rem
     p
         color: #fff
         font-size: 1.4rem
+        margin-bottom: 2rem
+
     h5
         color: $morado_primario
         font-weight: 600
-        font-size: 2.4rem
+        font-size: 2.8rem
         margin-bottom: 2.5rem
     .service
         width: 50%
@@ -36,27 +38,27 @@ main
         margin-bottom: 2.3rem
         color: $morado_primario
         font-weight: 600
+        font-size: 2.8rem
     h4
-        font-size: 1.6rem
+        font-size: 1.4rem
         margin-bottom: 2rem
-    .fondo
-        width: 80%
-        background: #31313f
-        border-radius: 8px
-        margin-bottom: 2rem
-        .project
-            width: 330px
-            margin: auto
-            img
-                padding: 20px
-                width: 100%
-                border-radius: 38px
-        .project-info
+    .project
+            width: 100%
             text-align: center
+            background: #31313f
+            border-radius: 8px
+            margin-bottom: 2rem
+            .project-box
+                width: 100%
+                margin: auto
+                img
+                    padding: 20px
+                    width: 75%
+                    border-radius: 38px
             h3
                 font-weight: 600
                 padding: 0 30px
-                font-size: 1.85rem
+                font-size: 2.8rem
             p
                 font-size: 1.4rem
                 padding: 0 30px
@@ -69,6 +71,16 @@ main
                 margin-left: 3rem
                 a
                     text-decoration: none
+                    font-size: 1.4rem
                     color: #fff
+// MEDIAQUERIES
+@media (min-width: 768px)
+    main
+        .projects
+            .project
+                width: 40%
+                margin-left: 5rem
+                .project-box
+                    width: 100%
 
 
