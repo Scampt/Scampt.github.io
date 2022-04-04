@@ -1,1 +1,168 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- GOOGLE-FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Luis K Portfolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container">
+                <figure class="logo">
+                    <a href="">Kevin Quiroz</a>
+                </figure>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav text-center mb-2 mb-lg-0 navegacion">
+                        <li class="nav-item mb-5 mb-md-0"><a href="" class="activo">Home</a></li>
+                        <li class="nav-item mb-5 mb-md-0"><a href="">About me</a></li>
+                        <li class="nav-item mb-5 mb-md-0"><a href="">Proyects</a></li>
+                        <li class="nav-item mb-5 mb-md-0"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 texto-principal">
+                    <h1>Hello,<br> <span class="auto-texto"></span></h1>
+                    <p class="col-5 m-auto col-md-7 col-lg-12">
+                    I'm a freelance, UI Designer, Web Developer, im dedicate to create websites for all the people who need it.</p>
+
+                    <button type="button" class="btn-about-me">
+                        About me <i class="fa-solid fa-user"></i>
+                    </button>
+
+                    <button type="button" class="btn-projects">
+                        Projects <i class="fa-solid fa-eye"></i>
+                    </button>
+                </div>
+
+                <figure class="col-sm-12 col-md-6 m-md-0 foto-perfil">
+                    <div class="circulo">
+                    <img src="img/foto.png" alt="">
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="about-me">
+                <h3 class="">About me:</h3>
+                <p>Hi, my name is Luis Kevin Quiroz Pacheco, i am a web developer, UI Designer, i got my skills, learning by myself with constant learning and some projects with the past of the time.</p>
+                <h5>The services i offer:</h5>
+                    <div class="service web">
+                        <i class="fa-solid fa-code"></i>
+                        <h6>Web Development</h6>
+                        <p>I create interfaces with HTML, CSS & Javascript and also some frameworks like Bootstrap and Jquery</p>
+                    </div>
+
+                    <div class="service ui">
+                        <i class="fa-solid fa-pencil"></i>
+                        <h6>Version Control</h6>
+                        <p>I design web interfaces with Figma or AdobeXD</p>
+                    </div>
+
+                    <div class="service git">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h6>UI & UX Design</h6>
+                        <p>I can upload every single edit i made on the website as you can see in the repo in Github</p>
+                    </div>
+            </section>
+
+            <section class="projects">
+                <h3>Feature projects:</h3>
+                <h4>This are some real projects that i made over a course of being a Web Developer</h4>
+
+                <div class="container fondo">
+                    <figure class="row project">
+                        <img src="img/luthertft.png" alt="">
+                    </figure>
+                    <div class="col project-info">
+                        <h3>LutherTFT</h3>
+                        <p>A page created for a NFT of a alien that express how its the life in other dimension chilling with the boys</p>
+                        <button type="button"><a href="https://luthertft.com" target="_blank">View Page</a></button>
+                        <button type="button"><a href="https://github.com/Scampt/LutherAlien">Github Repo</a></button>
+                    </div>
+                </div>
+
+                <div class="container fondo">
+                    <figure class="row project">
+                        <img src="img/totaburger.png" alt="">
+                    </figure>
+                    <div class="col project-info">
+                        <h3>Totaburger</h3>
+                        <p>A page created for a friend to his hamburguers, also be my first real page created, little simple, but cool</p>
+                        <button type="button"><a href="https://luthertft.com" target="_blank">View Page</a></button>
+                        <button type="button"><a href="https://github.com/Scampt/LutherAlien">Github Repo</a></button>
+                    </div>
+                </div>
+
+                <div class="container fondo">
+                    <figure class="row project">
+                        <img src="img/rento.png" alt="">
+                    </figure>
+                    <div class="col project-info">
+                        <h3>RentoCars</h3>
+                        <p>A page created for a NFT of a alien that express how its the life in other dimension chilling with the boys</p>
+                        <button type="button"><a href="https://luthertft.com" target="_blank">View Page</a></button>
+                        <button type="button"><a href="https://github.com/Scampt/LutherAlien">Github Repo</a></button>
+                    </div> 
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center col-md-6 contact">
+                    <h4>Wanna talk? Please
+                        <label for="name">
+                            <strong>Contact me</strong>
+                        </label>
+                    </h4>
+                    <form action="formulario" id="formulario">
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                    <input type="email" name="email" id="email" placeholder="Email:">
+                    <textarea name="coment" id="coment" placeholder="Message:" cols="39" rows="1"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col copy">
+                    <h3><i class="fa-regular fa-copyright autor"></i> Kevin Quiroz Pacheco</h3>
+                <a href=""><i class="fa-brands fa-facebook facebook"></a></i>
+                <a href=""><i class="fa-brands fa-instagram instagram"></a></i>
+                <a href=""><i class="fa-brands fa-whatsapp whatsapp"></a></i>
+                <a href=""><i class="fa-brands fa-linkedin linkedin"></a></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/5b339fc774.js" crossorigin="anonymous"></script>
+</body>
+</html>
