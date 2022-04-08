@@ -1,6 +1,5 @@
 footer
     .contact
-        width: 60%
         margin: auto
         h4
             color: $morado_primario
@@ -12,6 +11,22 @@ footer
             :hover
                 cursor: pointer
                 color: $morado_primario
+        .formulario
+            .error
+                text-align: start
+                width: 80%
+                margin: auto
+                margin-bottom: 2rem
+                border-radius: 3px
+                display: none
+                background: #ce1818
+                color: #fff
+                padding: 15px 10px
+                padding-left: 40px
+            .enviado
+                color: #119200
+                font-size: 1.4rem
+                display: none
         input
             width: 80%
             &[type="text"]
@@ -38,7 +53,7 @@ footer
                 border: none
                 background: $morado_primario
                 border-radius: 100px
-                margin-bottom: 5rem
+                margin-bottom: 1rem
         textarea
             width: 80%
             height: 30%

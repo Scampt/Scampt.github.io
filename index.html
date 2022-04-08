@@ -151,12 +151,17 @@
                             <strong>Contact me</strong>
                         </label>
                     </h4>
-                    <form action="formulario" id="formulario">
-                    <input type="text" name="name" id="name" placeholder="Nombre">
-                    <input type="email" name="email" id="email" placeholder="Email:">
-                    <textarea name="coment" id="coment" placeholder="Message:"></textarea>
-                    <input type="submit" value="Send">
-                </form>
+                    <form action="" class="formulario" id="formulario" name="formulario">
+                        <input type="text" name="nombre" id="nombre" placeholder="Name">
+                        <input type="email" name="correo" id="correo" placeholder="Email:">
+                        <textarea name="mensaje" id="mensaje" placeholder="Message:"></textarea>
+                        <ul class="error" id="error">
+                            
+                        </ul>
+                        <input type="submit" value="Send">
+                        <p class="enviado" id="exito">Your message was sended successfully</p>
+                    </form>
+
                 </div>
             </div>
             <div class="row">
