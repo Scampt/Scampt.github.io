@@ -1,6 +1,6 @@
 header
     width: 100%
-    background: $header
+    margin-bottom: 10rem
     .logo
         font-size: 2.8rem
         font-weight: 600
@@ -16,20 +16,18 @@ header
         :active
             border: none
     .navegacion
-        background: $header
+        background: $fondo
         li
             list-style: none
             margin-bottom: 2rem
             margin-left: auto
         a
             text-decoration: none
-            // border-bottom: 3px solid #ffffff7a
             color: #fff
             font-size: 1.4rem
             margin-right: 1rem
         :hover
             color: $morado_primario
-            border-bottom: 3px solid $morado_primario
         .activo
             border-bottom: 3px solid $morado_primario
             color: $morado_primario
@@ -59,6 +57,8 @@ header
             color: #fff
             background: none
             border: 2px solid $morado_primario
+        :hover
+            opacity: .7
         i
             margin-left: 5px
     .imagen
