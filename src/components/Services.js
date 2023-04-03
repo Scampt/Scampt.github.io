@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillPeopleFill, BsFillBriefcaseFill, BsFillPersonFill, BsFillChatFill, BsPaintBucket, BsPen, BsPenFill, BsPencil, BsBrush, BsBrushFill, BsCode, BsServer, BsBrowserChrome, BsBrowserSafari } from 'react-icons/bs'; // Importar los íconos que deseas usar
+import { BsPaintBucket, BsPen, BsPenFill, BsPencil, BsBrush, BsBrushFill, BsCode, BsServer, BsBrowserChrome, BsBrowserSafari } from 'react-icons/bs'; // Importar los íconos que deseas usar
 
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
