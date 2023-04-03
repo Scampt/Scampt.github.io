@@ -4,7 +4,7 @@ import Image from '../assets/avatar.png';
 
 import {FaGithub, FaLinkedin, FaTwitter, FaDiscord, FaWhatsapp} from 'react-icons/fa';
 
-import { TypeAnimation } from 'react-type-animation'; 
+// import { TypeAnimation } from 'react-type-animation'; 
 
 import {motion} from 'framer-motion';
 
