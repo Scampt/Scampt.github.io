@@ -12,7 +12,7 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
         {}
-        <a href='https://www.scampt.github.io'>
+        <a className='link-logo' href='https://kevinquiroz.vercel.app'>
           <img className='logo' src={Logo} alt=""/>
         {}
         </a>
