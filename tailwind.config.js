@@ -27,6 +27,10 @@ module.exports = {
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
       },
+      backgroundSize: {
+        contain: "contain",
+        "350px": "350px",
+      }
     },
   },
   plugins: [],

@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion';
 
 import {fadeIn} from '../variants';
-
+import contact from '../assets/contact.png';
 
 import React, { useState } from 'react';
 
@@ -29,7 +29,7 @@ const ContactForm = () => {
 
   return (
     <section className='py-16 lg:section' id='contact'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto mt-40'>
         <div className='flex flex-col lg:flex-row'>
           {}
           <motion.div 
@@ -41,6 +41,7 @@ const ContactForm = () => {
           <div>
             <h4 className='text-xl uppercase text-accent font-medium mb-2 tracking-wide'>Ponerse en contacto</h4>
             <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>¡Trabajemos <br/>Juntos!</h2>
+            <img src={contact} alt='Imagen de contacto' style={{width: "500px"}}/>
           </div>
         </motion.div>
     <motion.form 
