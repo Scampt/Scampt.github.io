@@ -1,0 +1,11 @@
+.skill__assistant__image {
+    width: 4em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill__assistant__image:hover {
+    transform: scale(1.1);
+    padding: 5px;
+}
+
+.skill__assistant__image--slack {width: 9rem;}

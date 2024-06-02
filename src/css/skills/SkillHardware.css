@@ -1,0 +1,10 @@
+.skill__hardware__image {
+    width: 12em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill__hardware__image:hover {
+    transform: scale(1.1);
+    padding: 5px;
+}
+

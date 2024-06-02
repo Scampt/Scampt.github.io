@@ -1,0 +1,169 @@
+{
+  "loadingText": "Chargement...",
+  "aboutMeShort": "Je suis un professionnel polyvalent avec une expérience étendue allant du développement frontend à la coordination des réunions d'entreprise. De mes débuts en tant que développeur frontend à mes rôles actuels dans la gestion des événements d'entreprise, mon parcours professionnel a été une expérience d'apprentissage constant et d'adaptation agile aux défis changeants du monde du travail.",
+    "typeAnimation": {
+      "sequence": [
+        "Développeur Frontend",
+        2000,
+        "Spécialiste en Assemblage",
+        2000,
+        "Assistant Administratif",
+        2000,
+        "Coordinateur de Réunions d'Entreprise",
+        2000,
+        "Concepteur Web",
+        2000,
+        "Développeur Wordpress",
+        1000
+      ],
+      "speed": 45
+    },
+    "aboutMeTitle": "À propos de moi",
+    "aboutMeDescription": "Je suis un professionnel polyvalent avec une expérience étendue allant du développement frontend à la coordination des réunions d'entreprise. Ma fascination pour la technologie et ma passion pour la résolution de problèmes m'ont poussé à explorer différents domaines de connaissance et à développer des compétences interdisciplinaires. Au fil des années, j'ai eu l'opportunité de travailler sur des projets stimulants qui m'ont permis d'acquérir une compréhension approfondie de l'intersection entre la technologie, la gestion d'entreprise et le service client.",
+    "SkillsTitle": "Compétences",
+    "SkillsTitleWeb": "Web conception",
+    "SkillsTitleHardware": "Matériel",
+    "SkillsTitleAssistant": "Assistant",
+    "SkillWebList": {
+      "skill": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "Tailwind",
+        "SASS",
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "SEO",
+        "Git",
+        "Github",
+        "Wordpress",
+        "Shopify"
+        ]
+  },
+  "SkillHardwareList": {
+    "skill": [
+      {
+        "id":"PCAssembly",        
+        "name": "Assemblage de PC"
+      },
+      {
+        "id":"PeripheralSetup",        
+        "name": "Configuration des Périphériques"
+      },
+      {
+        "id":"HardwareSecurity",        
+        "name": "Sécurité du Matériel"
+      },
+      {
+        "id":"NetworkConnectivity",        
+        "name": "Connectivité Réseau"
+      },
+      {
+        "id":"UPSManagement",        
+        "name": "Gestion des UPS"
+      },
+      {
+        "id":"BIOSConfiguration",        
+        "name": "Configuration du BIOS"
+      },
+      {
+        "id":"DataStorage",        
+        "name": "Stockage de Données"
+      },
+      {
+        "id":"SystemTroubleshooting",        
+        "name": "Dépannage du Système"
+      },
+      {
+        "id":"RemoteAssistance",        
+        "name": "Assistance à Distance"
+      },
+      {
+        "id": "OptimizationPerformance",
+        "name": "Optimisation et performance"
+      }
+    ]
+  },
+  "SkillAssistantList": {
+    "skill": [
+      {
+        "id":"Word",
+        "name": "Word"
+      },
+      {
+        "id":"Excel",
+        "name": "Excel"
+      },
+      {
+        "id":"PowerPoint",
+        "name": "Powerpoint"
+      },
+      {
+        "id":"Slack",
+        "name": "Slack"
+      },
+      {
+        "id":"Notion",
+        "name": "Notion"
+      },
+      {
+        "id":"TeamWorking",
+        "name": "Travail d'équipe"
+      },
+      {
+        "id":"ProyectManagment",
+        "name": "Gestion de projet"
+      },
+      {
+        "id":"CustomerSupport",
+        "name": "Support client"
+      },
+      {
+        "id":"ReportsStatus",
+        "name": "Rédaction de rapports"
+      },
+      {
+        "id":"EmailManagment",
+        "name": "Gestion des e-mails"
+      }
+    ]
+  },
+  "WorksList": {
+    "works": [
+      {
+        "id":"LutherAlien",
+        "overlay":"LutherAlienOverlay",
+        "video":"LutherAlienVideo",
+        "className": "luther-alien",
+        "link": "https://scampt.github.io/LutherAlien/",
+        "linkGithub":"https://github.com/Scampt/LutherAlien"
+      },
+      {
+        "id":"OddoLandingPage",
+        "overlay":"OddoLandingPageOverlay",
+        "video":"OddoLandingPageVideo",
+        "className": "oddo",
+        "link": "https://scampt.github.io/oddo-test-website/",
+        "linkGithub": "https://github.com/Scampt/oddo-test-website"
+      }
+    ]
+  },
+  "worksTitle": "Mes derniers travaux",
+  "worksLinkWebiste": "Voir le site web",
+  "worksLinkGithub": "Voir sur Github",
+  "logoLutherAlienText": "Logo de LutherAlien",
+  "logoArmicatText": "Logo de Armicat",
+  "lutherTFTStoreText": "Hoodie de LutherTFT",
+  "formTitle": "Contactez-moi",
+  "formName": "Prénom(s)",
+  "formLastName": "Nom(s)",
+  "formEmail": "Courriel",
+  "formMessage": "Parlez-moi de votre situation",
+  "formSubmit": "Envoyer",
+  "contactForm": {
+    "successMessage": "Merci pour votre message.",
+    "errorMessage": "Un problème est survenu lors de l'envoi de votre message. Veuillez vérifier les informations et réessayer."
+  }
+}

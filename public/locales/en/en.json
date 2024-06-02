@@ -1,0 +1,170 @@
+{
+  "loadingText": "Loading...",
+  "aboutMeShort": "I am a versatile professional with extensive experience ranging from frontend development to corporate meeting coordination. From my early days as a frontend developer to my current roles in managing corporate events, my professional journey has been a constant learning experience and agile adaptation to the changing challenges of the work environment.",
+  "imA": "I am a",
+    "typeAnimation": {
+      "sequence": [
+        "Frontend Developer",
+        2000,
+        "Assembly Specialist",
+        2000,
+        "Administrative Assistant",
+        2000,
+        "Corporate Meeting Coordinator",
+        2000,
+        "Web Designer",
+        2000,
+        "Wordpress Developer",
+        1000
+      ],
+      "speed": 45
+    },
+    "aboutMeTitle": "About Me",
+    "aboutMeDescription": "I am a versatile professional with extensive experience ranging from frontend development to corporate meeting coordination. My fascination with technology and passion for problem-solving have driven me to explore different areas of knowledge and develop interdisciplinary skills. Over the years, I have had the opportunity to work on challenging projects that have allowed me to gain a deep understanding of the intersection between technology, business management, and customer service.",
+    "SkillsTitle": "Skills",
+    "SkillsTitleWeb": "Web design",
+    "SkillsTitleHardware": "Hardware",
+    "SkillsTitleAssistant": "Assistant",
+    "SkillWebList": {
+      "skill": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "Tailwind",
+        "SASS",
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "SEO",
+        "Git",
+        "Github",
+        "Wordpress",
+        "Shopify"
+        ]
+  },
+  "SkillHardwareList": {
+    "skill": [
+      {
+        "id":"PCAssembly",
+        "name": "PC Assembly"
+      },
+      {
+        "id":"PeripheralSetup",
+        "name": "Peripheral Setup"
+      },
+      {
+        "id":"HardwareSecurity",
+        "name": "Hardware Security"
+      },
+      {
+        "id":"NetworkConnectivity",
+        "name": "Network Connectivity"
+      },
+      {
+        "id":"UPSManagement",
+        "name": "UPS Management"
+      },
+      {
+        "id":"BIOSConfiguration",
+        "name": "BIOS Configuration"
+      },
+      {
+        "id":"DataStorage",
+        "name": "Data Storage"
+      },
+      {
+        "id":"SystemTroubleshooting",
+        "name": "System Troubleshooting"
+      },
+      {
+        "id":"RemoteAssistance",
+        "name": "Remote Assistance"
+      },
+      {
+        "id": "OptimizationPerformance",
+        "name": "Optimization and Performance"
+      }
+    ]
+  },
+  "SkillAssistantList": {
+    "skill": [
+      {
+        "id":"Word",
+        "name": "Word"
+      },
+      {
+        "id":"Excel",
+        "name": "Excel"
+      },
+      {
+        "id":"PowerPoint",
+        "name": "Powerpoint"
+      },
+      {
+        "id":"Slack",
+        "name": "Slack"
+      },
+      {
+        "id":"Notion",
+        "name": "Notion"
+      },
+      {
+        "id":"TeamWorking",
+        "name": "Teamwork"
+      },
+      {
+        "id":"ProyectManagment",
+        "name": "Project Management"
+      },
+      {
+        "id":"CustomerSupport",
+        "name": "Customer Support"
+      },
+      {
+        "id":"ReportsStatus",
+        "name": "Report Writing"
+      },
+      {
+        "id":"EmailManagment",
+        "name": "Email Management"
+      }
+    ]
+  },
+  "WorksList": {
+    "works": [
+      {
+        "id":"LutherAlien",
+        "overlay":"LutherAlienOverlay",
+        "video":"LutherAlienVideo",
+        "className": "luther-alien",
+        "link": "https://scampt.github.io/LutherAlien/",
+        "linkGithub":"https://github.com/Scampt/LutherAlien"
+      },
+      {
+        "id":"OddoLandingPage",
+        "overlay":"OddoLandingPageOverlay",
+        "video":"OddoLandingPageVideo",
+        "className": "oddo",
+        "link": "https://scampt.github.io/oddo-test-website/",
+        "linkGithub": "https://github.com/Scampt/oddo-test-website"
+      }
+    ]
+  },
+  "worksTitle": "My Recent Works",
+  "worksLinkWebiste": "View Website",
+  "worksLinkGithub": "View on Github",
+  "logoLutherAlienText": "LutherAlien Logo",
+  "logoArmicatText": "Armicat Logo",
+  "lutherTFTStoreText": "LutherTFT Hoodie",
+  "formTitle": "Get in touch with me",
+  "formName": "First Name(s)",
+  "formLastName": "Last Name(s)",
+  "formEmail": "Email",
+  "formMessage": "Tell me your situation",
+  "formSubmit": "Submit",
+  "contactForm": {
+    "successMessage": "Thank you for your message.",
+    "errorMessage": "There was a problem sending your message. Please check the information and try again."
+  }
+}
