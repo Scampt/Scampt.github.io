@@ -1,88 +1,87 @@
 .skills__content {
-    min-height: 400px;
-    position: relative;
-    margin-bottom: 6rem;
+  min-height: 400px;
+  position: relative;
+  margin-bottom: 6rem;
 }
 
 .skills {
-    text-align: center;
-    color: inherit;
+  text-align: center;
+  color: inherit;
 }
 
 .skills__section__menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 1rem;
 }
 
 .skills__list__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-shadow: 1px 3px 10px 0px transparent;
-    border-radius: 10px;
-    padding: 10px;
-    transition: box-shadow 0.3s ease, background 0.3s ease;
-    transition: box-shadow 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 3px 10px 0px transparent;
+  border-radius: 10px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  transition: box-shadow 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .skills__list__item:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
 }
 
 .skills__content {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .skills {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .skills__image__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    justify-items: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .skills__list {
-    list-style: none;
-    display: contents;
+  list-style: none;
+  display: contents;
 }
 
 .skills__title {
-    margin: 10px 0 0 0;
-    font-family: Aldrich;
-    font-weight: 900;
-    letter-spacing: 3px;
-    font-size: 1rem;
-    color: inherit;
+  margin: 10px 0 0 0;
+  font-family: Aldrich;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  color: inherit;
 }
 
-
 .skills__item__section {
-    font-family: "Orbitron";
-    color: #a00003;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    transition: color 0.3s ease;
+  font-family: "Orbitron";
+  color: #a00003;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: color 0.3s ease;
 }
 
 .skills__item__section:hover {
-    color: #880305;
+  color: #880305;
 }
 
 @media (min-width: 768px) {
-    .skills__image__container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .skills__image__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

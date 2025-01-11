@@ -5,6 +5,7 @@ import { LanguageContext } from '../LanguageContext';
 import SkillWeb from './skills/SkillWeb';
 import SkillHardware from './skills/SkillHardware';
 import SkillAssistant from './skills/SkillAssistant';
+// import SkillMarketing from './skills/SkillMarketing.jsx';
 import { skillVariants, sectionVariant, titleVariant } from '../config/variants';
 
 const Skills = () => {
@@ -21,6 +22,8 @@ const Skills = () => {
                 return <SkillHardware key="hardware" />;
             case 'assistant':
                 return <SkillAssistant key="assistant" />;
+            // case 'marketing':
+            //     return <SkillMarketing key="marketing" />;
             default:
                 return <SkillWeb key="web" />;
         }

@@ -1,18 +1,17 @@
 .skill__web__image {
-    width: 5rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill__web__image:hover {
-    transform: scale(1.1);
-    padding: 5px;
+  transform: scale(1.1);
+  padding: 5px;
 }
 
-.skill__web__image--seo,
 .skill__web__image--git,
 .skill__web__image--github,
 .skill__web__image--javascript {
-    width: 4.5rem;
+  width: 5rem;
 }
 
 .skill__web__image--html,
@@ -23,8 +22,15 @@
 .skill__web__image--tailwind,
 .skill__web__image--wordpress,
 .skill__web__image--shopify {
-    width: 6rem;
+  width: 6rem;
 }
 
-.skill__web__image--figma {width: 4rem;}
+.skill__web__image--figma {
+  width: 4rem;
+}
 
+.skill__web__image--github {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}

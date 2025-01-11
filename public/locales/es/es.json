@@ -2,29 +2,32 @@
   "loadingText": "Cargando...",
   "aboutMeShort": "Soy un profesional polifacético con una amplia experiencia que abarca desde el desarrollo frontend hasta la coordinación de reuniones empresariales. Desde mis primeros pasos como desarrollador frontend hasta mis roles actuales en la gestión de eventos empresariales, mi trayectoria profesional ha sido un viaje de aprendizaje constante y adaptación ágil a los desafíos cambiantes del mundo laboral.",
   "imA": "Soy un",
-    "typeAnimation": {
-      "sequence": [
-        "Desarrollador Frontend",
-        2000,
-        "Especialista en Ensamblaje",
-        2000,
-        "Asistente Administrativo",
-        2000,
-        "Coordinador de Reuniones Empresariales",
-        2000,
-        "Diseñador Web",
-        2000,
-        "Desarrollador Wordpress",
-        1000
-      ],
-      "speed": 45
-    },
-  "aboutMeTitle":"Sobre mí",
-  "aboutMeDescription":"Soy un profesional polifacético con una amplia experiencia que abarca desde el desarrollo frontend hasta la coordinación de reuniones empresariales. Mi fascinación por la tecnología y mi pasión por resolver problemas me han impulsado a explorar diferentes áreas de conocimiento y a desarrollar habilidades interdisciplinarias. A lo largo de los años, he tenido la oportunidad de trabajar en proyectos desafiantes que me han permitido adquirir un profundo entendimiento de la intersección entre la tecnología, la gestión empresarial y la atención al cliente.",
+  "typeAnimation": {
+    "sequence": [
+      "Desarrollador Frontend",
+      2000,
+      "Especialista en Ensamblaje",
+      2000,
+      "Asistente Administrativo",
+      2000,
+      "Coordinador de Reuniones Empresariales",
+      2000,
+      "Diseñador Web",
+      2000,
+      "Desarrollador Wordpress",
+      2000,
+      "Especialista en Marketing Digital",
+      1000
+    ],
+    "speed": 45
+  },
+  "aboutMeTitle": "Sobre mí",
+  "aboutMeDescription": "Soy un profesional polifacético con una amplia experiencia que abarca desde el desarrollo frontend hasta la coordinación de reuniones empresariales. Mi fascinación por la tecnología y mi pasión por resolver problemas me han impulsado a explorar diferentes áreas de conocimiento y a desarrollar habilidades interdisciplinarias. A lo largo de los años, he tenido la oportunidad de trabajar en proyectos desafiantes que me han permitido adquirir un profundo entendimiento de la intersección entre la tecnología, la gestión empresarial y la atención al cliente.",
   "SkillsTitle": "Habilidades",
-  "SkillsTitleWeb":"Diseño web",
-  "SkillsTitleHardware":"Hardware",
-  "SkillsTitleAssistant":"Asistente",
+  "SkillsTitleWeb": "Diseño web",
+  "SkillsTitleHardware": "Hardware",
+  "SkillsTitleAssistant": "Asistente",
+  "SkillsTitleMarketing": "Marketing",
   "SkillWebList": {
     "skill": [
       "HTML",
@@ -36,12 +39,11 @@
       "Figma",
       "Photoshop",
       "Illustrator",
-      "SEO",
       "Git",
       "Github",
       "Wordpress",
       "Shopify"
-      ]
+    ]
   },
   "SkillHardwareList": {
     "skill": [
@@ -52,14 +54,6 @@
       {
         "id": "PeripheralSetup",
         "name": "Configuración de Periféricos"
-      },
-      {
-        "id": "HardwareSecurity",
-        "name": "Seguridad de Hardware"
-      },
-      {
-        "id": "NetworkConnectivity",
-        "name": "Conectividad de Redes"
       },
       {
         "id": "UPSManagement",
@@ -78,6 +72,14 @@
         "name": "Resolución de Problemas del Sistema"
       },
       {
+        "id": "HardwareSecurity",
+        "name": "Seguridad de Hardware"
+      },
+      {
+        "id": "NetworkConnectivity",
+        "name": "Conectividad de Redes"
+      },
+      {
         "id": "RemoteAssistance",
         "name": "Asistencia Remota"
       },
@@ -90,44 +92,81 @@
   "SkillAssistantList": {
     "skill": [
       {
-        "id":"Word",
+        "id": "Word",
         "name": "Word"
       },
       {
-        "id":"Excel",
+        "id": "Excel",
         "name": "Excel"
       },
       {
-        "id":"PowerPoint",
+        "id": "PowerPoint",
         "name": "Powerpoint"
       },
       {
-        "id":"Slack",
-        "name": "Slack"
-      },
-      {
-        "id":"Notion",
+        "id": "Notion",
         "name": "Notion"
       },
       {
-        "id":"TeamWorking",
+        "id": "Slack",
+        "name": "Slack"
+      },
+      {
+        "id": "TeamWorking",
         "name": "Trabajo en equipo"
       },
       {
-        "id":"ProyectManagment",
+        "id": "ProyectManagment",
         "name": "Gestión de Proyectos"
       },
       {
-        "id":"CustomerSupport",
+        "id": "CustomerSupport",
         "name": "Atención al Cliente"
       },
       {
-        "id":"ReportsStatus",
+        "id": "ReportsStatus",
         "name": "Redacción de Informes"
       },
       {
-        "id":"EmailManagment",
+        "id": "EmailManagment",
         "name": "Gestión de Correos Electrónicos"
+      }
+    ]
+  },
+
+  "SkillMarketingList": {
+    "skill": [
+      {
+        "id": "SEO",
+        "name": "SEO"
+      },
+      {
+        "id": "SEM",
+        "name": "SEM"
+      },
+      {
+        "id": "Marketing de contenidos",
+        "name": "Marketing de contenidos"
+      },
+      {
+        "id": "Gestión de redes sociales",
+        "name": "Gestión de redes sociales"
+      },
+      {
+        "id": "Email Marketing",
+        "name": "Email Marketing"
+      },
+      {
+        "id": "Google ADS",
+        "name": "Google ADS"
+      },
+      {
+        "id": "Meta Business Suite",
+        "name": "Meta Business Suite"
+      },
+      {
+        "id": "Copywriting",
+        "name": "Copywriting"
       }
     ]
   },
@@ -135,20 +174,36 @@
   "WorksList": {
     "works": [
       {
-        "id":"LutherAlien",
-        "overlay":"LutherAlienOverlay",
-        "video":"LutherAlienVideo",
+        "id": "LutherAlien",
+        "overlay": "LutherAlienOverlay",
+        "video": "LutherAlienVideo",
         "className": "luther-alien",
         "link": "https://scampt.github.io/LutherAlien/",
-        "linkGithub":"https://github.com/Scampt/LutherAlien"
+        "linkGithub": "https://github.com/Scampt/LutherAlien"
       },
       {
-        "id":"OddoLandingPage",
-        "overlay":"OddoLandingPageOverlay",
-        "video":"OddoLandingPageVideo",
+        "id": "OddoLandingPage",
+        "overlay": "OddoLandingPageOverlay",
+        "video": "OddoLandingPageVideo",
         "className": "oddo",
         "link": "https://scampt.github.io/oddo-test-website/",
         "linkGithub": "https://github.com/Scampt/oddo-test-website"
+      },
+      {
+        "id": "AHFJamaica",
+        "overlay": "AHFJamaicaOverlay",
+        "video": "AHFJamaicaVideo",
+        "className": "ahf-jamaica",
+        "link": "https://ahfmedicalcentre.org.jm/",
+        "linkGithub": ""
+      },
+      {
+        "id": "Pargon ISG",
+        "overlay": "ParagonISGOverlay",
+        "video": "ParagonISGVideo",
+        "className": "paragon-isg",
+        "link": "https://paragonisg.com/",
+        "linkGithub": ""
       }
     ]
   },
@@ -158,14 +213,16 @@
   "logoLutherAlienText": "Logotipo de LutherAlien",
   "logoArmicatText": "Logotipo de Armicat",
   "lutherTFTStoreText": "Hoodie de LutherTFT",
+  "TetosTruckingPrinted": "Tetos Trucking Diseño",
+  "TetosTruckingLogo": "Tetos Trucking Logo",
   "formTitle": "Ponte en contacto conmigo",
   "formName": "Nombre(s)",
-  "formLastName":"Apellido(s)",
+  "formLastName": "Apellido(s)",
   "formEmail": "Correo electrónico",
   "formMessage": "Cuentame tu situación",
   "formSubmit": "Enviar",
-    "contactForm": {
-      "successMessage":"Gracias por su mensaje.",
-      "errorMessage":"Hubo un problema al enviar su mensaje. Revisa la información y vuelve a intentarlo"
-    }
+  "contactForm": {
+    "successMessage": "Gracias por su mensaje.",
+    "errorMessage": "Hubo un problema al enviar su mensaje. Revisa la información y vuelve a intentarlo"
+  }
 }

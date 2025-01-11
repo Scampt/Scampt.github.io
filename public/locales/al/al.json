@@ -1,170 +1,226 @@
 {
-  "loadingText": "Wird geladen...",
-  "aboutMeShort": "Ich bin ein vielseitiger Profi mit umfangreicher Erfahrung, die von der Frontend-Entwicklung bis zur Koordination von Unternehmensbesprechungen reicht. Von meinen Anfängen als Frontend-Entwickler bis zu meinen aktuellen Rollen in der Organisation von Unternehmensveranstaltungen war mein beruflicher Werdegang geprägt von ständigem Lernen und agiler Anpassung an die sich verändernden Herausforderungen der Arbeitswelt.",
+  "loadingText": "Laden...",
+  "aboutMeShort": "Ich bin ein vielseitiger Profi mit umfassender Erfahrung, die vom Frontend-Entwicklung bis hin zur Koordination von Geschäftstreffen reicht. Mein beruflicher Werdegang, der mit der Frontend-Entwicklung begann und zu meiner aktuellen Rolle in der Organisation von Geschäftstreffen führte, ist geprägt von kontinuierlichem Lernen und einer agilen Anpassung an die wechselnden Anforderungen des Arbeitsplatzes.",
   "imA": "Ich bin ein",
-    "typeAnimation": {
-      "sequence": [
-        "Frontend-Entwickler",
-        2000,
-        "Montagespezialist",
-        2000,
-        "Verwaltungsassistent",
-        2000,
-        "Koordinator für Unternehmensbesprechungen",
-        2000,
-        "Webdesigner",
-        2000,
-        "Wordpress-Entwickler",
-        1000
-      ],
-      "speed": 45
-    },
-    "aboutMeTitle": "Über mich",
-    "aboutMeDescription": "Ich bin ein vielseitiger Profi mit umfangreicher Erfahrung, die von der Frontend-Entwicklung bis zur Koordination von Unternehmensbesprechungen reicht. Meine Faszination für Technologie und meine Leidenschaft für Problemlösungen haben mich dazu gebracht, verschiedene Wissensgebiete zu erkunden und interdisziplinäre Fähigkeiten zu entwickeln. Im Laufe der Jahre hatte ich die Gelegenheit, an herausfordernden Projekten zu arbeiten, die es mir ermöglichten, ein tiefes Verständnis für die Schnittstelle zwischen Technologie, Unternehmensmanagement und Kundenservice zu erlangen.",
-    "SkillsTitle": "Fähigkeiten",
-    "SkillsTitleWeb": "Web design",
-    "SkillsTitleHardware": "Hardware",
-    "SkillsTitleAssistant": "Assistent",
-    "SkillWebList": {
-      "skill": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Tailwind",
-        "SASS",
-        "Figma",
-        "Photoshop",
-        "Illustrator",
-        "SEO",
-        "Git",
-        "Github",
-        "Wordpress",
-        "Shopify"
-        ]
+  "typeAnimation": {
+    "sequence": [
+      "Frontend-Entwickler",
+      2000,
+      "Montagespezialist",
+      2000,
+      "Verwaltungsassistent",
+      2000,
+      "Koordinator für Geschäftstreffen",
+      2000,
+      "Webdesigner",
+      2000,
+      "WordPress-Entwickler",
+      2000,
+      "Spezialist für digitales Marketing",
+      1000
+    ],
+    "speed": 45
+  },
+  "aboutMeTitle": "Über mich",
+  "aboutMeDescription": "Ich bin ein vielseitiger Profi mit umfassender Erfahrung, die vom Frontend-Entwicklung bis hin zur Koordination von Geschäftstreffen reicht. Meine Faszination für Technologie und meine Leidenschaft für Problemlösungen haben mich dazu gebracht, verschiedene Wissensgebiete zu erkunden und interdisziplinäre Fähigkeiten zu entwickeln. Im Laufe der Jahre hatte ich die Möglichkeit, an herausfordernden Projekten zu arbeiten, die mir ein tiefes Verständnis für die Schnittstelle zwischen Technologie, Unternehmensmanagement und Kundenservice ermöglicht haben.",
+  "SkillsTitle": "Fähigkeiten",
+  "SkillsTitleWeb": "Webdesign",
+  "SkillsTitleHardware": "Hardware",
+  "SkillsTitleAssistant": "Assistenz",
+  "SkillsTitleMarketing": "Marketing",
+  "SkillWebList": {
+    "skill": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap",
+      "Tailwind",
+      "SASS",
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "Git",
+      "Github",
+      "Wordpress",
+      "Shopify"
+    ]
   },
   "SkillHardwareList": {
     "skill": [
       {
-        "id":"PCAssembly",
-        "name": "PC-Zusammenbau"
+        "id": "PCAssembly",
+        "name": "PC-Montage"
       },
       {
-        "id":"PeripheralSetup",
+        "id": "PeripheralSetup",
         "name": "Peripherie-Einrichtung"
       },
       {
-        "id":"HardwareSecurity",        
-        "name": "Hardware-Sicherheit"
+        "id": "UPSManagement",
+        "name": "USV-Management"
       },
       {
-        "id":"NetworkConnectivity",        
-        "name": "Netzwerkkonnektivität"
-      },
-      {
-        "id":"UPSManagement",        
-        "name": "USV-Verwaltung"
-      },
-      {
-        "id":"BIOSConfiguration",        
+        "id": "BIOSConfiguration",
         "name": "BIOS-Konfiguration"
       },
       {
-        "id":"DataStorage",        
-        "name": "Daten-Speicherung"
+        "id": "DataStorage",
+        "name": "Datenspeicherung"
       },
       {
-        "id":"SystemTroubleshooting",        
-        "name": "System-Fehlerbehebung"
+        "id": "SystemTroubleshooting",
+        "name": "Systemfehlerbehebung"
       },
       {
-        "id":"RemoteAssistance",        
+        "id": "HardwareSecurity",
+        "name": "Hardware-Sicherheit"
+      },
+      {
+        "id": "NetworkConnectivity",
+        "name": "Netzwerkverbindung"
+      },
+      {
+        "id": "RemoteAssistance",
         "name": "Fernunterstützung"
       },
       {
         "id": "OptimizationPerformance",
-        "name": "Optimierung und Leistung"
+        "name": "Optimierung & Leistung"
       }
     ]
   },
   "SkillAssistantList": {
     "skill": [
       {
-        "id":"Word",
+        "id": "Word",
         "name": "Word"
       },
       {
-        "id":"Excel",
+        "id": "Excel",
         "name": "Excel"
       },
       {
-        "id":"PowerPoint",
-        "name": "Powerpoint"
+        "id": "PowerPoint",
+        "name": "PowerPoint"
       },
       {
-        "id":"Slack",
-        "name": "Slack"
-      },
-      {
-        "id":"Notion",
+        "id": "Notion",
         "name": "Notion"
       },
       {
-        "id":"TeamWorking",
+        "id": "Slack",
+        "name": "Slack"
+      },
+      {
+        "id": "TeamWorking",
         "name": "Teamarbeit"
       },
       {
-        "id":"ProyectManagment",
+        "id": "ProyectManagment",
         "name": "Projektmanagement"
       },
       {
-        "id":"CustomerSupport",
-        "name": "Kundenbetreuung"
+        "id": "CustomerSupport",
+        "name": "Kundensupport"
       },
       {
-        "id":"ReportsStatus",
+        "id": "ReportsStatus",
         "name": "Berichterstellung"
       },
       {
-        "id":"EmailManagment",
-        "name": "E-Mail-Verwaltung"
+        "id": "EmailManagment",
+        "name": "E-Mail-Management"
+      }
+    ]
+  },
+  "SkillMarketingList": {
+    "skill": [
+      {
+        "id": "SEO",
+        "name": "SEO"
+      },
+      {
+        "id": "SEM",
+        "name": "SEM"
+      },
+      {
+        "id": "Content Marketing",
+        "name": "Content-Marketing"
+      },
+      {
+        "id": "Social Media Management",
+        "name": "Social-Media-Management"
+      },
+      {
+        "id": "Email Marketing",
+        "name": "E-Mail-Marketing"
+      },
+      {
+        "id": "Google ADS",
+        "name": "Google ADS"
+      },
+      {
+        "id": "Meta Business Suite",
+        "name": "Meta Business Suite"
+      },
+      {
+        "id": "Copywriting",
+        "name": "Texterstellung"
       }
     ]
   },
   "WorksList": {
     "works": [
       {
-        "id":"LutherAlien",
-        "overlay":"LutherAlienOverlay",
-        "video":"LutherAlienVideo",
+        "id": "LutherAlien",
+        "overlay": "LutherAlienOverlay",
+        "video": "LutherAlienVideo",
         "className": "luther-alien",
         "link": "https://scampt.github.io/LutherAlien/",
-        "linkGithub":"https://github.com/Scampt/LutherAlien"
+        "linkGithub": "https://github.com/Scampt/LutherAlien"
       },
       {
-        "id":"OddoLandingPage",
-        "overlay":"OddoLandingPageOverlay",
-        "video":"OddoLandingPageVideo",
+        "id": "OddoLandingPage",
+        "overlay": "OddoLandingPageOverlay",
+        "video": "OddoLandingPageVideo",
         "className": "oddo",
         "link": "https://scampt.github.io/oddo-test-website/",
         "linkGithub": "https://github.com/Scampt/oddo-test-website"
+      },
+      {
+        "id": "AHFJamaica",
+        "overlay": "AHFJamaicaOverlay",
+        "video": "AHFJamaicaVideo",
+        "className": "ahf-jamaica",
+        "link": "https://ahfmedicalcentre.org.jm/",
+        "linkGithub": ""
+      },
+      {
+        "id": "Pargon ISG",
+        "overlay": "ParagonISGOverlay",
+        "video": "ParagonISGVideo",
+        "className": "paragon-isg",
+        "link": "https://paragonisg.com/",
+        "linkGithub": ""
       }
     ]
   },
-  "worksTitle": "Meine neuesten Arbeiten",
+  "worksTitle": "Meine neuesten Projekte",
   "worksLinkWebiste": "Website ansehen",
   "worksLinkGithub": "Auf Github ansehen",
   "logoLutherAlienText": "LutherAlien-Logo",
   "logoArmicatText": "Armicat-Logo",
-  "lutherTFTStoreText": "LutherTFT-Hoodie",
-  "formTitle": "Nehmen Sie Kontakt mit mir auf",
-  "formName": "Vorname(n)",
-  "formLastName": "Nachname(n)",
+  "lutherTFTStoreText": "LutherTFT Hoodie",
+  "TetosTruckingPrinted": "Design Tetos Trucking",
+  "TetosTruckingLogo": "Tetos Trucking Logo",
+  "formTitle": "Kontaktieren Sie mich",
+  "formName": "Vorname",
+  "formLastName": "Nachname",
   "formEmail": "E-Mail",
-  "formMessage": "Erzählen Sie mir Ihre Situation",
+  "formMessage": "Erzählen Sie mir von Ihrem Anliegen",
   "formSubmit": "Senden",
   "contactForm": {
     "successMessage": "Vielen Dank für Ihre Nachricht.",
-    "errorMessage": "Beim Senden Ihrer Nachricht ist ein Problem aufgetreten. Überprüfen Sie die Informationen und versuchen Sie es erneut."
+    "errorMessage": "Beim Versenden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte überprüfen Sie die Informationen und versuchen Sie es erneut."
   }
 }
